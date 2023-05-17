@@ -1,0 +1,80 @@
+/* Общие стили */
+body {
+    background-color: #351e94;
+    color: #9cdc4d;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 2px solid #FF5555;
+    margin: 20px 0;
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 1.45;
+  }
+  
+  a {
+    color: #FF5555;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Стили для таблицы */
+  table {
+    width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000;
+  }
+  
+  th {
+    background-color: #514dbd;
+    color: #bebec2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #d3d3d3;
+  }
+  
+  /* Медиа-запрос для адаптивности */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    
+    .image-container {
+      float: none;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
